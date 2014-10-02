@@ -13,6 +13,8 @@
 		CD15081819DD9DCA0061DF50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD15081719DD9DCA0061DF50 /* Images.xcassets */; };
 		CD15081B19DD9DCA0061DF50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD15081919DD9DCA0061DF50 /* LaunchScreen.xib */; };
 		CD15082719DD9DCA0061DF50 /* MapNotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD15082619DD9DCA0061DF50 /* MapNotificationTests.swift */; };
+		CD15083119DD9DDF0061DF50 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD15083019DD9DDF0061DF50 /* MapKit.framework */; };
+		CD15083319DD9F420061DF50 /* CoordinateFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD15083219DD9F420061DF50 /* CoordinateFinder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		CD15082019DD9DCA0061DF50 /* MapNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD15082519DD9DCA0061DF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD15082619DD9DCA0061DF50 /* MapNotificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapNotificationTests.swift; sourceTree = "<group>"; };
+		CD15083019DD9DDF0061DF50 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CD15083219DD9F420061DF50 /* CoordinateFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinateFinder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD15083119DD9DDF0061DF50 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +64,7 @@
 		CD15080219DD9DCA0061DF50 = {
 			isa = PBXGroup;
 			children = (
+				CD15083019DD9DDF0061DF50 /* MapKit.framework */,
 				CD15080D19DD9DCA0061DF50 /* MapNotification */,
 				CD15082319DD9DCA0061DF50 /* MapNotificationTests */,
 				CD15080C19DD9DCA0061DF50 /* Products */,
@@ -77,6 +83,7 @@
 		CD15080D19DD9DCA0061DF50 /* MapNotification */ = {
 			isa = PBXGroup;
 			children = (
+				CD15083219DD9F420061DF50 /* CoordinateFinder.swift */,
 				CD15081019DD9DCA0061DF50 /* AppDelegate.swift */,
 				CD15081219DD9DCA0061DF50 /* ViewController.swift */,
 				CD15081419DD9DCA0061DF50 /* Main.storyboard */,
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD15083319DD9F420061DF50 /* CoordinateFinder.swift in Sources */,
 				CD15081319DD9DCA0061DF50 /* ViewController.swift in Sources */,
 				CD15081119DD9DCA0061DF50 /* AppDelegate.swift in Sources */,
 			);
